@@ -1,6 +1,56 @@
-h1 {
-	color: green;
+.wrapper {
+		
 }
-p {
-	color: blue;
+
+.page-header {
+	display: block;
+	height: 100px;
+	background-color: #CECECE;
+}
+
+.container-header {
+	max-width: 1200px;
+	min-width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 20px;
+}
+
+.logo-box {
+	float: left;
+	background-color: #2FC1AD;
+	padding: 20px;
+}
+
+
+/* НАВИГАЦИЯ */
+.menu-box {
+	float: left;
+	margin-left: 25px;
+}
+
+.menu_nav {
+	width: 800px;
+}
+
+.menu_list {
+	display: inline-block;;
+}
+
+.dropdown-toggle {
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #231f20;
+	margin: 0 12px;
+	/*float: left;*/
+	text-decoration: none;	
+}
+
+
+.contact-box {
+	float: right;
+	padding-top: 10px;
+	font-size: 30px;
+	color: #04b0fd;
 }
