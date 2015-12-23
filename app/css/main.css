@@ -5,16 +5,15 @@
 .page-header {
 	display: block;
 	height: 100px;
-	background-color: #CECECE;
+	background-color: #CECECE;;;
 }
 
 .container-header {
 	max-width: 1200px;
 	min-width: 960px;
-	height: 100%;
-	margin: 0 auto;
 	position: relative;
 	padding-top: 20px;
+	margin: 0 auto;
 }
 
 .logo-box {
@@ -39,12 +38,12 @@
 }
 
 .dropdown-toggle {
-	text-transform: uppercase;
 	font-size: 13px;
 	color: #231f20;
 	margin: 0 12px;
 	/*float: left;*/
-	text-decoration: none;	
+	text-decoration: none;
+	text-transform: uppercase;	
 }
 
 
@@ -53,4 +52,156 @@
 	padding-top: 10px;
 	font-size: 30px;
 	color: #04b0fd;
+}
+
+/* УСЛУГИ */
+.services-our {
+	height: 400px;
+	background: #F0FFEB;
+}
+
+.services_container {
+	text-align: center;
+	padding-top: 30px;
+	color: #252323;
+	padding-bottom: 130px;
+
+}
+
+.services_text {
+	font-size: 40px;
+}
+
+.services-review {
+
+}
+
+.services_repair {
+	display: inline-block;
+}
+
+.repair {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	margin: 0px 52px;
+}
+
+/* Результат */
+.results {
+	height: 400px;
+	background: #ffffff;;
+
+}
+
+.results_review{
+
+}
+
+.results_list {
+	display: inline-block;
+}
+
+.results_see {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+	margin: 0px 32px;
+	color: #6D777D;
+}
+
+.results_text {
+	font-size: 16px;
+	color: #634950;
+	text-align: center;
+	width: 593px;
+}
+
+/* ГАРАНТИИ */
+.warranty {
+	height: 400px;
+	background: #6BC1D6;
+}
+
+.warranty_review {
+
+}
+
+.warranty_list {
+	display: inline-block;
+}
+
+.warranty_see {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+	margin: 0px 32px;
+	color: #6D777D;
+}
+
+/* ГАЛЕРЕЯ */
+.gallery {
+	height: 400px;
+	background: #FFFFFF;
+}
+
+.gallery_container {
+	text-align: center;
+	padding-top: 30px;
+	color: #252323;
+	padding-bottom: 118px;
+}
+
+.gallery_text {
+	text-align: center;
+	font-size: 40px;
+	color: #6D777D;
+}
+
+/* ОТЗЫВЫ */
+.reviews {
+	height: 400px;
+	background: #B4FFEE;
+}
+
+.reviews_container {
+	text-align: center;
+	padding-top: 30px;
+	color: #252323;
+	padding-bottom: 118px;
+}
+
+.reviews_text {
+	text-align: center;
+	font-size: 40px;
+	color: #6D777D;
+}
+
+/* АКЦИЯ */
+.action {
+	height: 400px;
+	background: #FFFFFF;
+}
+
+.action_container {
+	text-align: center;
+	padding-top: 30px;
+	color: #252323;
+	padding-bottom: 118px;
+}
+
+.action_text {
+	text-align: center;
+	font-size: 40px;
+	color: #6D777D;
+}
+
+/* ФУТЕР */
+.page-footer {
+	height: 160px;
+	background: #333333;
+}
+
+.container {
+
 }
